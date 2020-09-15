@@ -11,8 +11,6 @@ def index():
 def banana():
     return "banana"
 
-@app.route("/apple")
-def apple():
-    return "apple"
+
 
 app.run()
